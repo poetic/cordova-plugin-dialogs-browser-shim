@@ -12,7 +12,8 @@
 [semantic-release-url]:    https://github.com/semantic-release/semantic-release
 
 A shim for cordova-plugin-dialogs. This package add the same API as if you
-are using cordova-plugin-dialogs in Cordova environment.
+are using [cordova-plugin-dialogs](https://github.com/apache/cordova-plugin-dialogs#methods)
+in Cordova environment.
 
 ```
 // es6
