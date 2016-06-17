@@ -1,14 +1,14 @@
 {
   "name": "cordova-plugin-dialogs-browser-shim",
-  "version": "1.0.0",
   "description": "Make navigator.notification API work in the browser.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"FUCK TESTING!\"",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/poetic/cordova-plugin-dialogs-browser-shim.git"
+    "url": "https://github.com/poetic/cordova-plugin-dialogs-browser-shim.git"
   },
   "keywords": [
     "cordova",
@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/poetic/cordova-plugin-dialogs-browser-shim/issues"
   },
-  "homepage": "https://github.com/poetic/cordova-plugin-dialogs-browser-shim#readme"
+  "homepage": "https://github.com/poetic/cordova-plugin-dialogs-browser-shim#readme",
+  "devDependencies": {
+    "semantic-release": "^4.3.5"
+  }
 }
