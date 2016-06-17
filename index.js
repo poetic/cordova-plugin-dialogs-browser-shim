@@ -1,4 +1,4 @@
-function () {
+(function () {
   // We do not anything if its already cordova
   if (window.cordova) {
     return
@@ -22,4 +22,4 @@ function () {
       // there is no equivalent function in the browser
     }
   }
-}()
+})()
