@@ -13,7 +13,7 @@
       callback(window.alert(message))
     },
     confirm: function (message, callback) {
-      callback(window.confirm(message))
+      callback(window.confirm(message) ? 2 : 1)
     },
     prompt: function (message, callback) {
       callback(window.prompt(message))
