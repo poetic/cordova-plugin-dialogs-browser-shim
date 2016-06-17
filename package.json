@@ -1,0 +1,26 @@
+{
+  "name": "cordova-plugin-dialogs-browser-shim",
+  "version": "1.0.0",
+  "description": "Make navigator.notification API work in the browser.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poetic/cordova-plugin-dialogs-browser-shim.git"
+  },
+  "keywords": [
+    "cordova",
+    "plugin",
+    "dialogs",
+    "browser",
+    "shim"
+  ],
+  "author": "Chun-Yang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/poetic/cordova-plugin-dialogs-browser-shim/issues"
+  },
+  "homepage": "https://github.com/poetic/cordova-plugin-dialogs-browser-shim#readme"
+}
