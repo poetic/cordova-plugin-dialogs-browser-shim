@@ -10,13 +10,13 @@
 
   window.navigator.notification = {
     alert: function(message, callback) {
-      callback(window.alert(message))
+      callback && callback(window.alert(message))
     },
     confirm: function (message, callback) {
-      callback(window.confirm(message) ? 2 : 1)
+      callback && callback(window.confirm(message) ? 1 : 2)
     },
     prompt: function (message, callback) {
-      callback(window.prompt(message))
+      callback && callback(window.prompt(message))
     },
     beep: function (times) {
       // there is no equivalent function in the browser
